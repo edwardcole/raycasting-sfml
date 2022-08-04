@@ -1,0 +1,18 @@
+{
+	"folders": 
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Compile & Run",
+			"working_dir": "${project_path}",
+			"cmd": ["clang++ main.cpp -lsfml-graphics -lsfml-window -lsfml-system && ./a.out"],
+			"selector": "source.c++",
+			"shell": true
+		}
+	]
+}
